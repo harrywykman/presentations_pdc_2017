@@ -1,0 +1,45 @@
+.reveal h1.dark {
+    /* background-color: rgba(1, 1, 1, 0.7); */
+}
+
+.reveal .dark-font {
+    font-color: #333;
+}
+
+.reveal .slide-background.trans-bg-7.present {
+    opacity: .7;
+}
+
+.reveal .slide-background.trans-bg-6.present {
+    opacity: .6;
+}
+
+.reveal .slide-background.trans-bg-5.present {
+    opacity: .5;
+}
+
+.reveal .slide-background.trans-bg-4.present {
+    opacity: .4;
+}
+
+.reveal .slide-background.trans-bg-1.present {
+    opacity: .1;
+}
+
+.reveal .attribution {
+  position: fixed;
+  display: block;
+  right: 8px;
+  bottom: 8px;
+  z-index: 31;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+.reveal section img {
+    max-height: 600px;
+}
