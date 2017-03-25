@@ -22,6 +22,14 @@
     opacity: .4;
 }
 
+.reveal .slide-background.trans-bg-3.present {
+    opacity: .3;
+}
+
+.reveal .slide-background.trans-bg-2.present {
+    opacity: .2;
+}
+
 .reveal .slide-background.trans-bg-1.present {
     opacity: .1;
 }
