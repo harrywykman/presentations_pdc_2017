@@ -51,3 +51,7 @@
 .reveal section img {
     max-height: 600px;
 }
+
+img#headshot {
+    max-width: 300px;
+}
