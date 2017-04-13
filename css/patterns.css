@@ -52,6 +52,6 @@
     max-height: 600px;
 }
 
-img#headshot {
+.reveal section img#headshot {
     max-width: 300px;
 }
