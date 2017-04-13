@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>What is Permaculture?</title>
+
+		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="css/patterns.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>What is Permaculture? </br></br>
+						<small>And what does it have to do with my garden?</small>
+					</h1>
+				</section>
+				<section class="trans-bg-4" data-background-image="img/honeycomb.jpg">
+					<h1 class="dark">Designing <br/>
+					<small>&hellip; with nature.</small></h1>
+				</section>
+				<section class="trans-bg-4" data-background-image="img/william_morris_wallpaper.jpg">
+					<h2>Designing within an Historical Context </h2>
+				</section>
+				<section data-background-image="img/what_is_permaculture/curve_to_present.png">
+					<aside class="notes">
+						http://www.stonybrook.edu/globalstudies/GET.html
+						https://fractionalflow.files.wordpress.com/2014/10/fig-1-world-total-energy-consumption-1800-to-2013.png
+						http://www.futurescenarios.org/content/view/16/31/
+					</aside>
+				</section>
+				<section data-background-image="img/what_is_permaculture/curve_pre_ind.png">
+				</section>
+				<section data-background-image="img/what_is_permaculture/curve_ind.png">
+				</section>
+				<section data-background-image="img/what_is_permaculture/curve_to_future.png">
+				</section>
+				<section data-background-image="img/what_is_permaculture/curve_eye.png">
+				</section>
+				<section data-background-image="img/what_is_permaculture/curve_design.png">
+				</section>
+				<section class="trans-bg-1" data-background-image="img/what_is_permaculture/curve_purview.png">
+					<h2>What is visible from the peak?</h2>
+				</section>
+				<section class="trans-bg-1" data-background-image="">
+					<h1>The End.</h2>
+					<a href="index.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+			Reveal.configure({ slideNumber: true });
+			Reveal.configure({ pdfMaxPagesPerSlide: 1 })
+		</script>
+	</body>
+</html>
